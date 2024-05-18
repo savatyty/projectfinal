@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="css/style.css">
+     
+        <style>
+          .navbar {
+  overflow: hidden;
+  background-color:  #434986;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn , .topnav:hover .mav{
+  background-color:#ddd;
+  color: rgb(57, 163, 163);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.topnav{
+  float: left;
+  overflow: hidden;
+}
+
+.topnav .mav {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+.topnav-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.topnav-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.topnav-content a:hover {
+  background-color: #ddd;
+}
+
+.topnav:hover .topnav-content {
+  display: block;
+}
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: white;
+   
+}
+.footer-col{
+   width: 25%;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+        </style>
+        <title>College Science and Technology</title>
+        <link rel="icon" href="image/icon.jpg">
+       
+    </head>
+    <body>
+        <img src="image/banner.jpg" width="1345" height="110">
+        <div class="navbar ">
+            <a href="index.html">Home</a>
+            <a href="News.html" target="_blank"> News</a>
+            <a href="Facultymembers.htm" target="_blank">Faculty members</a>
+            <a href="training.htm" target="_blank">Professional Training</a>
+            <div class="dropdown">
+              <button class="dropbtn">Degree Programs <i class="fa fa-caret-down"></i></button>
+              <div class="dropdown-content">
+                <a href="IT.html" target="_blank"> Information Technology  <i style="color: #04AA6D;">Since 2003</i> </a>
+                <a href="CS.html" target="_blank">Computer Science <i style="color: #04AA6D;">Since 2003</i></a>
+                <a href="ETC.html" target="_blank">Electronics And Telecommunications   <i style="color: #04AA6D;">Since 2003</i></a>
+                <a href="GDM.html" target="_blank">Graphic Design And Multimedia   <i style="color: rgb(218, 33, 33);">New 2025</i></a>
+                <a href="BMIT.html" target="_blank">Business Manangment Impormation Technology   <i style="color: rgb(218, 33, 33);">New 2025</i></a>
+                <a href="NECS.html" target="_blank">Network Engineering and Cyber Security <i style="color: rgb(218, 33, 33);">New 2025</i></a>
+                <a href="NECS.html" target="_blank">Data Science and Artificial Intelligence <i style="color: rgb(218, 33, 33);">New 2025</i></a>
+                
+              </div>
+
+             
+              
+            </div>
+            <div class="topnav">
+              <button class="mav">Computer Labs <i class="fa fa-caret-down"></i></button>
+              <div class="topnav-content">
+                <a href="Lab1.html" target="_blank"> Multimedia Lab   </a>
+                <a href="Lab2.html" target="_blank">E-learning Lab </a>
+                <a href="Lab3.html" target="_blank">Networking Lab </a>
+                <a href="Lab4.html" target="_blank">IT Center Lab </a>
+                
+              </div>
+
+             
+              
+            </div>
+        </div>
+       
+        <div style="background-color: rgb(155, 204, 219);">
+        <p>
+            ស្វាគមន៏មកកាន់មហាវិទ្យាល័យវិទ្យាសាស្រ្ត និងបច្ចេកវិទ្យានៃសកលវិទ្យាល័យកម្ពុជា។ សម្រាប់ប្អូនៗសិស្សានុសិស្ស ដែលមានបំណងចង់បន្តការសិក្សាថ្នាក់បរិញ្ញាបត្ររង និងថ្នាក់បរិញ្ញាបត្រ។ សូមចុះឈ្មោះជាមួយយើងឥឡូវនេះ ឬអាចអញ្ជើញមកកាន់សាកលវិទ្យាល័យផ្ទាល់ក៏បាន។
+            
+        </p>
+        <br>
+        <p>
+            Welcome to College of Science and Technology of The University of Cambodia. For everyone who wishes to pursue for any AA and BA degrees of the study programs, please register now or visit the campus of The University of Cambodia.
+
+        </p>
+        </div>
+        <img src="image/1.jpg" width="440" height="270">
+        <img src="image/2.jpg" width="440" height="270">
+        <img src="image/3.jpg" width="440" height="270">
+       <h2 style="color: white; background-color:  #434986;"><marquee bavior="scroll" direction="right" scrollmout="6"><img src="image/cost.jpg" width="130" height="50">ស្វាគមន៍! IT EXPERT College Science And Technology</marquee></h2>
+       <img src="image/4.jpg" width="440" height="270">
+       <img src="image/5.jpg" width="440" height="270">
+       <img src="image/6.jpg" width="440" height="270">
+    </body>
+
+       <footer class="footer">
+        
+        <p style="background-color:  #434986; color: white;"><marquee bavior="scroll" direction="right" scrollmount="6"><img src="image/uc.png" width="40" height="40">Copyright © University of Cambodia</marquee></p>
+        <div class="container"></div>
+        <div class="row">
+          
+
+          <div class="col-md-4">
+            <h2>Scholarship Programs</h2>
+            <p>» Current Scholarships<br>
+              » Samdech Techo Hun SenVision-100 Scholarship 2015-2019<br>
+              » Samdech Techo Hun Sen Vision-100 Scholarship 2014-2018<br>
+              » Samdech Techo Hun Sen Vision-100 Scholarship 2013-2017<br>
+              » Samdech Techo Hun Sen Young Leader Scholarship 2015</p>
+        
+          </div>
+          <div class="col-md-4">
+            <h2>Resources</h2>
+            <p>» UC Studies Catalogs, 2019-2023<br>
+              » Asia Economic Forum<br>
+              » Global Network of ASEAN Study Centers<br>
+              » CONTESSA<br>
+              » Skills and Career Development Center (SCDC)<br>
+              » The Handa Library<br>
+              » The UC Bulletin<br>
+              » UC Foundation<br>
+              » Student Quick Guide to Google Classroom<br></p>
+        
+          </div>
+          <div class="col-md-4">
+            <h2>Facilities</h2>
+          <p>» Facility Inaugurations<br>
+            » UC Campus<br>
+            » Computer Laboratories<br>
+            » The Handa Library </p>
+        
+          </div>
+          <div class="col-md-4">
+            <h2>Contact Us</h2>
+            <p>
+              The University of CambodiaNorthbridge Road<br>
+              P.O. Box 917Sangkat Toek Thla, Khan Sen Sok<br>
+              Phnom Penh, Kingdom of Cambodia 12000<br>
+              Telephone: (855-23) 993-274; 993-276<br>
+              E-mails: info@uc.edu.kh; admissions@uc.edu.kh<br>
+            </p>
+          </div>
+        </div>
+        </div>
+       
+       </footer>
+
+      
+       
+       
+
+
+    
+</html>
